@@ -1,0 +1,174 @@
+body{
+    /* background-image: url(https://cdn.pixabay.com/photo/2020/05/12/20/10/jorj-barber-5164812_960_720.jpg);
+    /* background-image: url(https://cdn.pixabay.com/photo/2020/04/27/10/09/art-object-5099103_960_720.jpg); */
+    /* background-repeat: no-repeat; */ 
+    background:url('../bg2.jpg');
+   
+}
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+.header{
+
+/* border: 2px solid red; */
+height: 100px;
+width:100%;
+margin:auto;
+}
+#left{
+    /* border: 5px solid rgb(21, 153, 87); */
+    display: inline-block;
+    width: 26%;
+    position: absolute;
+    left:10px;
+    padding: 10px 5px;
+    top:12px;
+ 
+
+}
+#right{
+    /* border: 5px solid rgb(228, 43, 10); */
+    display: inline-block;
+    position: absolute;
+    width: 25%;
+    height: 40px;
+    right:10px;
+    top:20px;
+    text-align: center;
+
+}
+#middle{
+    /* border: 5px solid rgb(24, 195, 18); */
+    display: block;
+    width: 500px;
+    margin: 40px auto;
+    text-align: cente
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 3px 7px;
+    padding: 5px 7px;
+    /* border-radius: 25px; */
+}
+li a{
+    text-decoration: none;
+    color:WHITE;
+    padding:5px 12px;
+}
+
+a:hover{
+    background-color: rgb(107, 102, 97);
+    color:rgb(251, 251, 251);
+    border-radius:25px ;
+    /* margin: 3px 10px; */
+    /* padding: 5px 12px; */
+    /* background-color:rgb(255, 255, 255); */
+    text-decoration: underline ;
+}
+.logo{
+    width: 30px;
+    height:30px
+    
+    
+}
+span{
+    box-sizing: border-box;
+    text-align: center;
+    color:white;
+    font-family: 'Ewert', cursive;
+    font-size: 23px;
+    padding-left:2px;
+}
+#search{
+    padding:5px;
+border-radius: 20px;
+    background-color: rgb(212, 203, 203);
+}
+.btn{
+    padding:5px;
+border-radius: 20px;
+background-color: rgb(204, 83, 13);
+}
+.heading{
+    /* border:2px solid red; */
+    margin-bottom: 15px;
+}
+.box{
+    /* border:2px solid rgb(24, 163, 94); */
+    width: 50%;
+    height: 400px;
+    margin: 60px ;
+}
+p{
+     text-align:center;
+     font-family: 'Condiment', cursive;
+     font-size:25px
+}
+#name{
+    
+    display:block;
+    /* border:2px solid rgb(223, 141, 35); */
+    text-align: center;
+    padding:5px 30px;
+    margin: 0px auto 10px auto;
+border-radius:30px;
+}
+#email{
+    /* border:2px solid rgb(24, 163, 94); */
+    padding:5px 30px;
+    margin: 0px auto 10px auto;
+    border-radius:30px;
+    text-align: center;
+    display:block;
+   
+}
+#number{
+    /* border:2px solid rgb(2, 52, 85); */
+    text-align: center;
+    padding:5px 30px;
+    margin: 0px auto 10px auto;
+    border-radius:30px;
+   
+    display:block;
+    
+}
+
+.signUp{
+    /* border:2px solid rgb(2, 52, 85); */
+    text-align: center;
+    margin: 0px auto 10px auto;
+    display:block;
+    padding:3px 30px;
+    background-color: indianred;
+    border-radius: 30px;
+    cursor:pointer;
+
+}
+.signUp:hover{
+    background-color: rgb(165, 155, 155);
+    color:white;
+    text-decoration: underline;
+    
+}
+.link{
+    display:block;
+    /* border:2px solid blue; */
+    text-align: center;
+
+}
+/* h4{
+    display:inline;
+    position: absolute;
+    left:10%
+    border:2px solid red;
+} */
+/* .share{
+    border:2px solid red;
+} */
